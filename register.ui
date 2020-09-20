@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>654</width>
+    <height>401</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(64, 64, 64);</string>
+  </property>
+  <widget class="QLineEdit" name="t_loginid">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>100</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 11pt &quot;나눔명조 ExtraBold&quot;;
+color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+border: 1.7px solid black;</string>
+   </property>
+   <property name="clearButtonEnabled">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="NonEmployee_check">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>100</y>
+     <width>121</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 11pt &quot;나눔명조 ExtraBold&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(64, 64, 64);</string>
+   </property>
+   <property name="text">
+    <string>Non-Employee</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="Registered_check">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>160</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 11pt &quot;나눔명조 ExtraBold&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(64, 64, 64);</string>
+   </property>
+   <property name="text">
+    <string>Registered</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="t_email">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>260</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 11pt &quot;나눔명조 ExtraBold&quot;;
+color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+border: 1.7px solid black;</string>
+   </property>
+   <property name="clearButtonEnabled">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="Trainee_check">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>220</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 11pt &quot;나눔명조 ExtraBold&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(64, 64, 64);</string>
+   </property>
+   <property name="text">
+    <string>Trainee</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_register">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>340</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 11pt &quot;나눔명조 ExtraBold&quot;;
+
+border: 1.7px solid rgb(45, 45, 185);
+background-color: rgb(191, 191, 191);</string>
+   </property>
+   <property name="text">
+    <string>Register</string>
+   </property>
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="Student_check">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>190</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 11pt &quot;나눔명조 ExtraBold&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(64, 64, 64);</string>
+   </property>
+   <property name="text">
+    <string>Student</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="TeamLeader_check">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>130</y>
+     <width>131</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 11pt &quot;나눔명조 ExtraBold&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(64, 64, 64);</string>
+   </property>
+   <property name="text">
+    <string>Team Leader</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="AsstProjectManager_check">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>190</y>
+     <width>161</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 11pt &quot;나눔명조 ExtraBold&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(64, 64, 64);</string>
+   </property>
+   <property name="text">
+    <string>AsstProject Manager</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l_code">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>220</y>
+     <width>56</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 11pt &quot;나눔명조 ExtraBold&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(64, 64, 64);</string>
+   </property>
+   <property name="text">
+    <string>POCode</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="Unregistered_check">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>130</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 11pt &quot;나눔명조 ExtraBold&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(64, 64, 64);</string>
+   </property>
+   <property name="text">
+    <string>Unregistered</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="t_password">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>140</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 11pt &quot;나눔명조 ExtraBold&quot;;
+color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+border: 1.7px solid black;</string>
+   </property>
+   <property name="clearButtonEnabled">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="title">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>30</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 30pt &quot;나눔명조 ExtraBold&quot;;
+
+color: rgb(146, 208, 80);
+background-color: rgb(64, 64, 64);</string>
+   </property>
+   <property name="text">
+    <string>Sign Up</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l_city">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>180</y>
+     <width>56</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 11pt &quot;나눔명조 ExtraBold&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(64, 64, 64);</string>
+   </property>
+   <property name="text">
+    <string>City</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l_id">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>100</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 11pt &quot;나눔명조 ExtraBold&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(64, 64, 64);</string>
+   </property>
+   <property name="text">
+    <string>ID</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l_mail">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>260</y>
+     <width>56</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 11pt &quot;나눔명조 ExtraBold&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(64, 64, 64);</string>
+   </property>
+   <property name="text">
+    <string>Email</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l_pw">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>140</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 11pt &quot;나눔명조 ExtraBold&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(64, 64, 64);</string>
+   </property>
+   <property name="text">
+    <string>Password</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="Projectmanager_check">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>160</y>
+     <width>141</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 11pt &quot;나눔명조 ExtraBold&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(64, 64, 64);</string>
+   </property>
+   <property name="text">
+    <string>Project Manager</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="HR_check">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>250</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 11pt &quot;나눔명조 ExtraBold&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(64, 64, 64);</string>
+   </property>
+   <property name="text">
+    <string>HR</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="Manager_check">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>220</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 11pt &quot;나눔명조 ExtraBold&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(64, 64, 64);</string>
+   </property>
+   <property name="text">
+    <string>Manager</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l_mobile">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>300</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 11pt &quot;나눔명조 ExtraBold&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(64, 64, 64);</string>
+   </property>
+   <property name="text">
+    <string>Mobile No</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="t_pocode">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>220</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 11pt &quot;나눔명조 ExtraBold&quot;;
+color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+border: 1.7px solid black;</string>
+   </property>
+   <property name="clearButtonEnabled">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="t_mobileno">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>300</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 11pt &quot;나눔명조 ExtraBold&quot;;
+color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+border: 1.7px solid black;</string>
+   </property>
+   <property name="clearButtonEnabled">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="t_city">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>180</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 11pt &quot;나눔명조 ExtraBold&quot;;
+color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+border: 1.7px solid black;</string>
+   </property>
+   <property name="clearButtonEnabled">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="Employee_check">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>100</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 11pt &quot;나눔명조 ExtraBold&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(64, 64, 64);</string>
+   </property>
+   <property name="text">
+    <string>Employee</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="Admin_check">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>250</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 11pt &quot;나눔명조 ExtraBold&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(64, 64, 64);</string>
+   </property>
+   <property name="text">
+    <string>Admin</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
