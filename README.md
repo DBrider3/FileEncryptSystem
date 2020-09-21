@@ -2,7 +2,7 @@
 유저의 권한을 가지고 File을 Encrypt, Decrypt를 하는 System
 
 ### Environment
-Python, PyQt, MySQL, Encrypt(AES)
+Python, PyQt, SQLite, Encrypt(AES)
 
 ### Login
 ![image](https://user-images.githubusercontent.com/38426670/93715052-ca444680-fba1-11ea-8cc5-a9686c24c0ba.png)
